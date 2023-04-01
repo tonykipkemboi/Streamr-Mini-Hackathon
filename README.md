@@ -96,6 +96,10 @@ pip install -r requirements.txt
 
 4. Run the Docker containers using the command `docker-compose up`.
 
+## 🚀 Deployment to DigitalOcean
+
+The earthquake data streaming service has been deployed to a DigitalOcean Droplet. The Droplet is set up as an MQTT broker to which the publisher script (publisher.py) publishes new earthquake events, and the subscriber script (subscriboor.py) subscribes to receive the events. Both the publisher and subscriber scripts run as Docker containers on the Droplet.
+
 ## 📜 License
 
 This project is licensed under the MIT [License](LICENSE).
