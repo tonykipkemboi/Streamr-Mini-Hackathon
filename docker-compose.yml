@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  publisher:
+    build: .
+    env_file: .env
+    environment:
+      - MQTT_USERNAME=${MQTT_USERNAME}
+      - API_KEY=${API_KEY}
+      - MQTT_HOST=${MQTT_HOST}
+      - MQTT_PORT=${MQTT_PORT}
+      - MQTT_TOPIC=${MQTT_TOPIC}
+    volumes:
+      - .:/app
+
+  subscriboor:
+    build: .
+    command: python subscriboor.py
+    env_file: .env
+    environment:
+      - MQTT_USERNAME=${MQTT_USERNAME}
+      - API_KEY=${API_KEY}
+      - MQTT_HOST=${MQTT_HOST}
+      - MQTT_PORT=${MQTT_PORT}
+      - MQTT_TOPIC=${MQTT_TOPIC}
+    volumes:
+      - .:/app
+
