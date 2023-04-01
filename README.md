@@ -1,11 +1,11 @@
 # 🌍 Real-Time Earthquake Monitoring 🚨
 
-Check out the real-time (30 seconds refresh => `sched.every(30).seconds.do(get_and_publish_data)`
-)) stream deployed [here](https://streamr.network/streams/0x4a2a3501e50759250828acd85e7450fb55a10a69%2Fearthquakes)!
-
 ## 📝 Overview
 
 This project provides a real-time monitoring system for earthquake events using data from the EMSC (European-Mediterranean Seismological Centre) RSS feed. The system retrieves earthquake data, processes it, and streams it to a Streamr node using MQTT. Users can subscribe to the Streamr node to receive real-time updates on earthquake events as they happen.
+
+- Check out the real-time (30 seconds refresh => `sched.every(30).seconds.do(get_and_publish_data)`
+)) stream deployed [here](https://streamr.network/streams/0x4a2a3501e50759250828acd85e7450fb55a10a69%2Fearthquakes)!
 
 ## 🚀 Why Streamr?
 
