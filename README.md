@@ -21,10 +21,10 @@ Streamr enables efficient and secure data transfer, making it suitable for disse
 
 ## 📁 Project Structure
 
-- publisher.py: The publisher script collects earthquake data from the data source, processes it, and publishes it to the Streamr stream.
-- subscriboor.py: The subscriber script subscribes to the Streamr stream and receives real-time updates on earthquake events.
-- Dockerfile: Dockerfile for building the Docker images for the publisher and subscriber.
-- docker-compose.yml: Docker Compose file for deploying the application on Docker.
+- **publisher.py**: The publisher script collects earthquake data from the data source, processes it, and publishes it to the Streamr stream.
+- **subscriboor.py**: The subscriber script subscribes to the Streamr stream and receives real-time updates on earthquake events.
+- **Dockerfile**: Dockerfile for building the Docker images for the publisher and subscriber.
+- **docker-compose.yml**: Docker Compose file for deploying the application on Docker.
 
 ## 🔗 Streamr Integration
 
@@ -62,6 +62,7 @@ if __name__ == '__main__':
 ## 🧰 Requirements
 
 - Python 3.7 or higher
+- Docker
 - Libraries: `requests`, `beautifulsoup4`, `pandas`, `paho-mqtt`, `schedule`, `pytz`
 - Access to a Streamr node (with MQTT plugin enabled)
 
@@ -70,13 +71,13 @@ if __name__ == '__main__':
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/tonykipkemboi/earthquake-monitoring.git
+git clone https://github.com/tonykipkemboi/Streamr-Mini-Hackathon.git
 ```
 
 2. Change into the project directory:
 
 ```bash
-cd earthquake-monitoring
+cd Streamr-Mini-Hackathon
 ```
 
 3. Install the required Python libraries:
@@ -97,7 +98,7 @@ pip install -r requirements.txt
 
 ## 📜 License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT [License](LICENSE).
 
 ## 📣 Acknowledgments
 
