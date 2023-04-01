@@ -1,6 +1,6 @@
 # 🌍 Real-Time Earthquake Monitoring 🚨
 
-- Check out the real-time (30 seconds refresh => `sched.every(30).seconds.do(get_and_publish_data)`
+Check out the real-time (30 seconds refresh => `sched.every(30).seconds.do(get_and_publish_data)`
 )) stream deployed [here](https://streamr.network/streams/0x4a2a3501e50759250828acd85e7450fb55a10a69%2Fearthquakes)!
 
 ## 📝 Overview
