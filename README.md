@@ -2,6 +2,8 @@
 
 [Earthquake Tracker App](https://earthquaketracker.app/)
 
+![earthquake](https://user-images.githubusercontent.com/64493665/230820364-fe1a3b95-1d95-44b3-8b5f-73c6473e4db2.jpg)
+
 ## 📝 Overview
 
 This project provides a real-time monitoring system for earthquake events using data from the EMSC (European-Mediterranean Seismological Centre) RSS feed. The system retrieves earthquake data, processes it, and streams it to a Streamr node using MQTT. Users can subscribe to the Streamr node to receive real-time updates on earthquake events as they happen.
